@@ -37,7 +37,41 @@ Sysmon and splunk is downloaded and installed using the above link. To make bett
 You can use this [link](https://splunkbase.splunk.com/app/5709) to add Splunk Apps.<br/>
 <br/>
 <p align="center">
-  Download Splunk Add-on for Sysmon:
-<img src="https://github.com/Dalilatu/Project-Page-Dal/blob/main/Home%20lab%20Setup%20diagram.drawio.png?raw=true" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  Log into the page, Download and unzipSplunk Add-on for Sysmon:
+<img alt="image" src="https://github.com/user-attachments/assets/ed798ee8-fd38-45dd-b469-1053f6ec9826" height="80%" width="80%"/>
+<br />
+<br />
+
+  
+After downloading, go back to Splunk and Install the Splunk Add-on for sysmon on splunk
+<br/>
+<p align="center">
+  Log into the page and Download Splunk Add-on for Sysmon:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/7745c88c-4e28-4016-9229-4fba88a51ff7" height="80%" width="80%"/>
+<br />
+<br />
+
+
+<p align="center">
+  Select “Install App from File”:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/0fca6ad5-68af-4ad8-85fa-eadfc943e1d1" height="80%" width="80%"/>
+<br />
+<br />
+
+<p align="center">
+  Navigate to where you downloaded the app.:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/e4f6f9ee-d2df-4e5b-b1e5-9c3c3763213e" height="80%" width="80%"/>
+<br />
+<br />
+
+<p align="center">
+  Select the zip file downloaded:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/8ede6ee4-eee7-431d-941a-edd86d54f97f" height="80%" width="80%"/>
+<br />
+<br />
+
+<p align="center">
+  If successful, you should get a pop-up that says the install was successful:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/a3c9b07f-ecb7-4262-9365-b677e074c9d6" height="80%" width="80%"/>
 <br />
 <br />
