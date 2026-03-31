@@ -75,3 +75,47 @@ After downloading, go back to Splunk and Install the Splunk Add-on for sysmon on
 <img alt="image" src="https://github.com/user-attachments/assets/a3c9b07f-ecb7-4262-9365-b677e074c9d6" height="80%" width="80%"/>
 <br />
 <br />
+
+## Setting Up Data Input
+
+Setting up data input in Splunk is essential because it defines how and where Splunk collects data. Without data input, Splunk has nothing to index, search, or analyze.<br/>
+
+<p align="center">
+  Select the Settings dropdown and the select “Data inputs” from the Data section:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/6a7cc95c-bf1d-4ed7-9ca7-bd289bfe36e3" height="80%" width="80%"/>
+<br />
+<br />
+
+<p align="center">
+  Then select “Remote event log collections”:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/d5712dfd-52ea-4f99-b64f-2f334815d925" height="80%" width="80%"/>
+<br />
+<br />
+
+
+<p align="center">
+  Enable the collection of the logs:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/532b06fa-e087-4a6b-83c1-34050c11d942" height="80%" width="80%"/>
+<br />
+<br />
+This is also how you will disable data collection, ensuring you do not exceed Splunk’s data limits.<br/>
+<br/>
+
+<p align="center">
+  Test it by running ipconfig from the command line:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/e3130fe5-0e53-42ee-b907-163ac4dc033f" height="80%" width="80%"/>
+<br/>
+<br/>
+
+<p align="center">
+  Then go to Splunk Search and Reporting App and look for it. As seen below, one event was discovered:<br/>
+<img alt="image" src="https://github.com/user-attachments/assets/494c6b4f-ed84-4110-b86a-ec689a205e07" height="80%" width="80%"/>
+<br/>
+<br/>
+
+## Conclusion
+
+Setting up a Splunk environment using Sysmon and the Splunk Add-on for Sysmon demonstrates the integration of advanced endpoint monitoring with centralized log analysis. By configuring Sysmon to capture detailed system events and leveraging the add-on to normalize and structure these logs, the environment allows for real-time visibility, efficient threat detection, and improved incident response.
+
+This setup highlights the importance of data-driven security monitoring, showing how organizations can proactively identify suspicious activity, maintain compliance, and strengthen their overall cybersecurity posture.
+
